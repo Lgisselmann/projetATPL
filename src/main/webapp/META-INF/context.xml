@@ -1,0 +1,12 @@
+<!--context file for tomcat server -->
+<Context>
+  <Resource
+    name="jdbc/ATPLQuizz"
+    auth="Container"
+    type="javax.sql.DataSource"
+    driverClassName="org.postgresql.Driver"
+    url="jdbc:postgresql://free."
+    username="projetatpl"
+    password="projetatpl"
+  />
+</Context>
